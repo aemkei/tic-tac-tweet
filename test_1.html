@@ -1,0 +1,14 @@
+<pre id=p>
+...
+...
+...
+<script>
+  P=1;
+  h = ".........".split("");
+  onkeydown = function () {
+    P=!P;
+    x = event.which-49;
+    h[x] = P*1
+    p.innerHTML = h.join("");
+  }
+</script>
