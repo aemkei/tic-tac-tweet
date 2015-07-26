@@ -1,7 +1,8 @@
-<script>for(h=i=12;P=i--;h+=i)document.write(i%4?"<input onclick=value||(value=P=P^1)>":"<br>")</script>
+<script>for(i=12;--i;)document.write(i%4?"<input onclick=value||(value=i=i^1)>":"<br>")</script>
 
 <script>
 function x(i){
+  console.log(i)
   // console.log(/(\w,?){3}/.test(A));
   // console.log(/(\w)(\1|..(\1|.\1.|..\1..)..)\1/.test(A.join("")));
 }
