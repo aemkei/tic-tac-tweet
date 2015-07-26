@@ -1,9 +1,1 @@
-<script>for(i=12;--i;)document.write(i%4?"<input onclick=value||(value=i^=1)>":"<br>")</script>
-
-<script>
-function x(i){
-  console.log(i)
-  // console.log(/(\w,?){3}/.test(A));
-  // console.log(/(\w)(\1|..(\1|.\1.|..\1..)..)\1/.test(A.join("")));
-}
-</script>
+<script>for(a=[],i=12;--i;a[i]=".",R=/(\w)(\1|..(\1|.\1.|..\1..)..)\1/)document.write(i%4?"<input onclick=value||(a["+i+"]=value=i^=1);R.test(a.join(''))&&alert(i)>":"<br>")</script>
