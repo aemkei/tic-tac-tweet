@@ -2,9 +2,11 @@
 
 Tic Tac Toe in a Tweet - A simplified version of the classic game in exactly 140 characters of HTML and JavaScript. The playfield is represented by 3x3 text-input fields. Instead of using `x` and `o`, this version uses the binary representations `0` and `1`.
 
-### Gameplay Video
+### Original Tweet
 
-![Tic-Tac-Tweet](https://raw.githubusercontent.com/aemkei/tic-tac-tweet/master/tic-tac-tweet.gif)
+https://twitter.com/aemkei/status/625784268996890624
+
+![Tweet](https://raw.githubusercontent.com/aemkei/tic-tac-tweet/master/tweet.png)
 
 ### Demo
 
@@ -13,6 +15,10 @@ Tic Tac Toe in a Tweet - A simplified version of the classic game in exactly 140
 ### Instructions
 
 Click a field to set the next mark. The game will only allow a new placement if the field was empty. Once the player marked three fields (horizontal, vertical, or diagonal) and alert will show the winner.
+
+### Gameplay Video
+
+![Tic-Tac-Tweet](https://raw.githubusercontent.com/aemkei/tic-tac-tweet/master/tic-tac-tweet.gif)
 
 ### Tweet Sized HTML (140 characters)
 
