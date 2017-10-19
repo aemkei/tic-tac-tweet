@@ -1,1 +1,1 @@
-for(a=[i=12];i;a[i]=9,R=/(0|1)(\1|..(\1|.\1.|..\1..)..)\1/)document.write(--i%4?"<input onclick=value||(a["+i+"]=value=i^=1);R.test(a.join(''))&&alert(i)>":"<br>")
+for(a=[i=12];i;a[i]=9)document.write(--i%4?"<input onclick=value?0:a["+i+"]=value=i^=1;"+/(0|1)(\1|..(\1|.\1.|..\1..)..)\1/+".test(a.join``)&&alert(i)>":"<p>")
