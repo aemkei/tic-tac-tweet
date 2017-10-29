@@ -4,17 +4,13 @@
 <b>Tic-Tac-Tweet</b> - HTML game in 140 characters
 <iframe src="tweet.html" width="500" height=100></iframe>
 <hr>
-Source:
+Source (140 chars)
 
 &lt;svg onload=eval(unescape(escape('𩡯𬠨𨐽𦱝𛁩🐱𜠻𛐭𪐻𨑛𪑝🐹𛁒🐯𚀰𯀱𚐨𧀱𯀮𛠨𧀱𯀮𧀱𛡼𛠮𧀱𛠮𚐮𛠩𧀱𛰩𩁯𨱵𫑥𫡴𛡷𬡩𭁥𚁩𙐴🰢🁩𫡰𭑴𘁯𫡣𫁩𨱫👶𨑬𭑥𯁼𚁡𦰢𚱩𚰢𧐽𭡡𫁵𩐽𪑞🐱𚐻𤠮𭁥𬱴𚁡𛡪𫱩𫠨𙰧𚐩𙠦𨑬𩑲𭀨𪐩🠢𞠢🁢𬠾𘠩').replace(/uD./g,'')))>
 
 <hr>
-Uncompressed:
-
-for(a=[i=12];i;a[i]=9,R=/(0|1)(\1|..(\1|.\1.
-|..\1..)..)\1/)document.write(--i%4?"&lt;input
-onclick=value||(a["+i+"]=value=i^=1);R.test(
-a.join(''))&&alert(i)>":"<br>")
+Uncompressed (159 bytes):
+for(a=[i=12];i;a[i]=9)document.write(--i%4?"<input onclick=value?0:a["+i+"]=value=i^=1;"+/(0|1)(\1|..(\1|.\1.|..\1..)..)\1/+".test(a.join``)&&alert(i)>":"<p>")
 
 <hr>
 <a href="https://github.com/aemkei/tic-tac-tweet">github.com/aemkei/tic-tac-tweet</a>
